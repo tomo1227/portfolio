@@ -32,12 +32,13 @@
   },
   "stylelint.validate": ["css"],
   "css.validate": false,
-  "typescript.preferences.importModuleSpecifier": "non-relative",
-  "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "files.associations": {
+    "*.css": "tailwindcss"
   },
-  "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "[javascript][javascriptreact][typescript][typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
     "editor.formatOnSave": true,
@@ -80,12 +81,7 @@
     "editor.formatOnSave": true,
     "files.insertFinalNewline": true
   },
-  "cSpell.words": [
-    "Codecov",
-    "devcontainer",
-    "devcontainers",
-    "dockercompose"
-  ],
+  "cSpell.words": ["Codecov", "devcontainer", "devcontainers", "dockercompose"],
   "todo-tree.general.tags": [
     "HACK",
     "FIXME",
@@ -234,9 +230,6 @@
       "description": "メトリクスやログの追加/改善"
     }
   ],
-  "cSpell.ignorePaths": [
-    ".vscode",
-    ".devcontainer/devcontainer.json",
-  ],
+  "cSpell.ignorePaths": [".vscode", ".devcontainer/devcontainer.json"],
   "errorLens.excludeBySource": ["cSpell"]
 }

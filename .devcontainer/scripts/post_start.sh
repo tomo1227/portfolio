@@ -14,4 +14,7 @@ git config pull.rebase false
 git config --global commit.template .commit_template
 echo "Success git config."
 
+cd project
+npm ci
+
 . ~/.bashrc
