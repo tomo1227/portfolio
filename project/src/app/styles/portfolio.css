@@ -1,0 +1,7 @@
+.portfolio_wrapper {
+    @apply flex flex-col items-center min-h-[60vh];
+}
+
+.portfolio_contents {
+    @apply text-3xl text-indigo-600 grow flex items-center justify-center;
+}

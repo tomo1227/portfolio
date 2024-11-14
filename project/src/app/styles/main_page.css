@@ -1,0 +1,7 @@
+.top-page-bg-img{
+    @apply fixed top-0 left-0 w-full h-screen z-[-1];
+}
+
+.top-page h1{
+    @apply text-black text-2xl antialiased font-black font-sans italic
+}

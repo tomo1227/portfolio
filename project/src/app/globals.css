@@ -1,3 +1,6 @@
+@import "./styles/main_page.css";
+@import "./styles/portfolio.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,4 +21,8 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+  @apply min-h-screen flex items-center justify-center;
 }
