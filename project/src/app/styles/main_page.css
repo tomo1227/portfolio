@@ -2,6 +2,8 @@
     @apply fixed top-0 left-0 w-full h-screen z-[-1];
 }
 
-.top-page h1{
-    @apply text-black text-2xl antialiased font-black font-sans italic
+.top-page h1 {
+    @apply text-black text-2xl antialiased font-black font-sans italic text-center mx-4;
+    line-height: 1.2;
+    word-wrap: break-word;
 }
