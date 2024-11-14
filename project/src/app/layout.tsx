@@ -16,13 +16,6 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Tomoki Ota's Portfolio",
   description: "Tomoki Otaのポートフォリオサイトです。",
-  // icons: "/favicon.ico",
-  // keywords: ["UtakataKyosui", "泡沫京水", "Portfolio", "ポートフォリオ"],
-  // viewport: {
-  //   width: "device-width",
-  //   initialScale: 1,
-  //   maximumScale: 1,
-  // },
   twitter: {
     card: "summary_large_image",
     images: ["/img/ogp.png"],
