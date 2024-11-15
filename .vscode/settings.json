@@ -81,7 +81,13 @@
     "editor.formatOnSave": true,
     "files.insertFinalNewline": true
   },
-  "cSpell.words": ["Codecov", "devcontainer", "devcontainers", "dockercompose"],
+  "cSpell.words": [
+    "Codecov",
+    "devcontainer",
+    "devcontainers",
+    "dockercompose",
+    "webp"
+  ],
   "todo-tree.general.tags": [
     "HACK",
     "FIXME",
