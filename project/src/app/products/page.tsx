@@ -13,8 +13,8 @@ export default function Page() {
               favicon="https://tomomon-blog.pages.dev/static/assets/favicon.ico"
               title="Tomoki Ota's Blog"
               description="フロントエンドからバックエンドまで日々の開発で得た知見や最新の技術トレンドを発信します。"
-              width={100}
-              height={100}
+              width={250}
+              height={250}
             />
           </div>
           <div className="product-item">
