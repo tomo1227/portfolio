@@ -1,11 +1,11 @@
 .link-card-wrapper {
-width: 100%;
-box-sizing: border-box;
-background-color: #ac85d3;
-border: 1px solid rgb(85, 13, 117);
-border-radius: 8px;
-margin: 0;
-padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ac85d3;
+    border: 1px solid rgb(85, 13, 117);
+    border-radius: 8px;
+    margin: 0;
+    padding: 10px;
 }
 
 .link-card,
