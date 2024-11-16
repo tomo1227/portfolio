@@ -1,0 +1,54 @@
+.profile-wrapper {
+  @apply flex flex-col items-center min-h-[60vh] w-screen h-screen;
+}
+  
+.profile-contents {
+  @apply flex items-center justify-center py-4 px-6 rounded-md w-4/5 h-screen;
+}
+
+@media  (max-width: 500px) {
+  .profile-contents {
+    @apply flex-col w-screen h-4/5;
+  }
+}
+
+#profile-title {
+  @apply text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-indigo-500 mt-16;
+  font-family: 'Poppins', sans-serif;
+}
+
+.profile-icon {
+  @apply flex items-start justify-center w-1/2 h-4/5
+}
+
+@media  (max-width: 500px) {
+  .profile-icon {
+    @apply h-1/5;
+  }
+}
+
+#profile-img {
+  @apply rounded-3xl aspect-square object-cover object-[center_20%] w-2/3;
+}
+
+@media  (max-width: 500px) {
+  #profile-img {
+    @apply w-auto;
+  }
+}
+.profile-message {
+  @apply flex flex-col items-center justify-start w-1/2 h-4/5 text-2xl mt-5
+}
+
+.profile-message h2{
+  @apply mb-2 text-3xl
+}
+
+@media  (max-width: 500px) {
+  .profile-message {
+    @apply w-full;
+  }
+  .profile-message h2{
+    @apply m-2;
+  }
+}

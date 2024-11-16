@@ -1,0 +1,20 @@
+.products-wrapper {
+  @apply mt-10 flex flex-col items-center min-h-[60vh] w-screen h-screen;
+}
+
+.products-contents {
+  @apply flex flex-col items-center justify-center py-4 px-6 rounded-md;
+}
+
+#products-title {
+  @apply text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-indigo-500 m-10;
+  font-family: 'Poppins', sans-serif;
+}
+
+.product-lists {
+  @apply flex flex-col justify-center w-4/5;
+}
+
+.product-item {
+  @apply flex flex-col justify-center p-3;
+}
