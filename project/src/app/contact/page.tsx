@@ -33,7 +33,7 @@ export default function Page() {
 
     const formData = new FormData(event.currentTarget);
     const jsonData = Object.fromEntries(formData.entries());
-    const baseUrl = process.env.BASE_URL || "http://127.0.0.1:3033/";
+    const baseUrl = process.env.BASE_URL || "https://tomokiota.vercel.app/";
 
     try {
       const response = await fetch(baseUrl + "api/contact/", {
