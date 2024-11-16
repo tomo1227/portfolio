@@ -2,21 +2,16 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ["tomomon.jp", "tomomon-blog.pages.dev"],
-    // remotePatterns: [
-    //   {
-    //     protocol: "https",
-    //     hostname: "tomomon-blog.pages.dev",
-    //     port: "",
-    //     pathname: "/static/assets/img/ogp/ogp.png",
-    //   },
-    //   {
-    //     protocol: "https",
-    //     hostname: "tomomon-blog.pages.dev",
-    //     port: "",
-    //     pathname: "/static/assets/favicon.ico",
-    //   },
-    // ],
+    domains: [
+      "tomomon.jp",
+      "tomomon-blog.pages.dev",
+      "img.icons8.com",
+      "icons8.com",
+      "github.com",
+      "crates.io",
+      "opengraph.githubassets.com",
+      "github.githubassets.com",
+    ],
   },
 };
 

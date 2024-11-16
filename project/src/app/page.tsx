@@ -11,7 +11,9 @@ export default function Home() {
         <div className="top-page">
           <Link href="/portfolio">
             <h1>
-              <span>Welcome to Tomoki Ota&apos;s Portfolio.</span>
+              <span id="top-page-title">
+                Welcome to Tomoki Ota&apos;s Portfolio.
+              </span>
             </h1>
           </Link>
           <div className="top-page-bg-img">

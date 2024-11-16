@@ -1,0 +1,12 @@
+.career-wrapper {
+  @apply flex flex-col items-center min-h-[60vh] w-screen h-screen;
+}
+  
+.career-contents {
+  @apply flex items-start justify-center py-4 px-6 rounded-md w-4/5 h-screen mt-4;
+}
+
+#career-title {
+  @apply text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-indigo-500 mt-16;
+  font-family: 'Poppins', sans-serif;
+}

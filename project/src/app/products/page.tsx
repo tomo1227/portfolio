@@ -28,6 +28,28 @@ export default function Page() {
               height={100}
             />
           </div>
+          <div className="product-item">
+            <BlogCard
+              url="https://crates.io/crates/helpman/"
+              ogp="/img/helpman.png"
+              favicon="https://crates.io/favicon.ico"
+              title="helpman(deprecated)"
+              description="MarkdwonでメモをかけるCLIアプリケーション"
+              width={100}
+              height={100}
+            />
+          </div>
+          <div className="product-item">
+            <BlogCard
+              url="https://github.com/tomo1227/pathy/"
+              ogp="/img/pathy.png"
+              favicon="https://github.githubassets.com/favicons/favicon-dark.png"
+              title="Pathy(EOL)"
+              description="ブラウザ上で動くシンプルマークダウンブログサイト"
+              width={300}
+              height={300}
+            />
+          </div>
         </div>
       </div>
     </div>
