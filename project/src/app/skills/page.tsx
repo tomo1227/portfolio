@@ -3,10 +3,10 @@ import Image from "next/image";
 export default function Page() {
   return (
     <div>
-      <div className="skill-wrapper">
-        <h1 id="skill-title">Skill</h1>
-        <div className="skill-contents">
-          <div id="skillsContainer">
+      <div className="skills-wrapper">
+        <h1 id="skills-title">Skill</h1>
+        <div className="skills-contents">
+          <div id="skills-container">
             <div className="bar">
               <div className="info">
                 <Image

@@ -7,7 +7,7 @@ export default function Page() {
         <Link href="/profile">Profile</Link>
       </div>
       <div className="portfolio-contents">
-        <Link href="/skill">Skill</Link>
+        <Link href="/skills">Skills</Link>
       </div>
       <div className="portfolio-contents">
         <Link href="/products">Products</Link>

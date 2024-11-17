@@ -1,13 +1,13 @@
-.skill-wrapper {
+.skills-wrapper {
     @apply flex flex-col items-center min-h-[60vh] w-screen h-screen;
 }
     
-.skill-contents {
+.skills-contents {
     @apply flex items-center justify-center py-4 rounded-md w-4/5 h-screen;
 }
 
 @media  (max-width: 500px) {
-    .skill-contents {
+    .skills-contents {
     @apply flex-col w-screen h-4/5;
     }
 }
@@ -17,12 +17,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
-#skillsContainer {
+#skills-container {
     @apply grid grid-cols-5 h-full;
 }
 
 @media  (max-width: 500px) {
-    #skillsContainer {
+    #skills-container {
     @apply grid grid-cols-4 h-full;
     }
 }

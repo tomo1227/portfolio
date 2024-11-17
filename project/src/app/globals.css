@@ -4,7 +4,7 @@
 @import "./styles/profile.css";
 @import "./styles/career.css";
 @import "./styles/products.css";
-@import "./styles/skill.css";
+@import "./styles/skills.css";
 @import "./styles/ui/blog_card.css";
 
 @tailwind base;
