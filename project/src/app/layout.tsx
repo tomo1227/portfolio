@@ -40,6 +40,7 @@ export default function RootLayout({
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google-site-verification" content="SRmBeocaKXyHHvQl7x1ZFQ6iBSPdGiy34nGo0ljyVkU" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
