@@ -1,31 +1,10 @@
 "use client";
 import { useState } from "react";
 
-// FIXME:use client内でuse serverやenvを使えないので修正する
 export default function Page() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
-  // async function handleSubmit(formData: FormData) {
-  //   "use server";
-  //   const baseUrl = process.env.BASE_URL;
-  //   await fetch(baseUrl + "api/contact/", {
-  //     method: "POST",
-  //     headers: {
-  //       Accept: "application/json, text/plain",
-  //       "Content-Type": "application/json",
-  //     },
-  //     body: JSON.stringify(formData),
-  //   }).then((res) => {
-  //     if (res.status === 200) {
-  //       console.log("メール送信成功");
-  //       setIsSubmitted(true); // 成功時に送信完了メッセージを表示
-  //     } else {
-  //       console.error("メール送信失敗");
-  //       setErrorMessage("エラーが発生しました");
-  //     }
-  //   });
-  // }
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setIsSubmitted(false);
