@@ -8,11 +8,22 @@ export default function Page() {
         <div className="product-lists">
           <div className="product-item">
             <BlogCard
-              url="https://tomomon-blog.pages.dev/"
-              ogp="https://tomomon-blog.pages.dev/static/assets/img/ogp/ogp.png"
-              favicon="https://tomomon-blog.pages.dev/static/assets/favicon.ico"
+              url="https://pathy.jp/"
+              ogp="https://pathy.jp/static/assets/img/ogp/ogp.png"
+              favicon="https://pathy.jp/static/assets/favicon.ico"
               title="Tomoki Ota's Blog"
               description="フロントエンドからバックエンドまで日々の開発で得た知見や最新の技術トレンドを発信します。"
+              width={250}
+              height={250}
+            />
+          </div>
+          <div className="product-item">
+            <BlogCard
+              url="https://tomokiota.com/"
+              ogp="https://tomokiota.com/opengraph-image.png?198f1afa7cb526e9"
+              favicon="https://tomokiota.com/favicon.ico"
+              title="tomokiota.com"
+              description="The Official Website of Tomoki Ota, Traveler and Photographer."
               width={250}
               height={250}
             />
