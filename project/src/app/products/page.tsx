@@ -22,7 +22,7 @@ export default function Page() {
               url="https://tomokiota.com/"
               ogp="https://tomokiota.com/opengraph-image.png?198f1afa7cb526e9"
               favicon="https://tomokiota.com/favicon.ico"
-              title="Tomoki Ota's Blog"
+              title="tomokiota.com"
               description="The Official Website of Tomoki Ota, Traveler and Photographer."
               width={250}
               height={250}
