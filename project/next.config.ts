@@ -4,13 +4,14 @@ const nextConfig: NextConfig = {
   images: {
     domains: [
       "tomomon.jp",
-      "tomomon-blog.pages.dev",
+      "tomokiota.com",
       "img.icons8.com",
       "icons8.com",
       "github.com",
       "crates.io",
       "opengraph.githubassets.com",
       "github.githubassets.com",
+      "pathy.jp",
     ],
   },
 };
