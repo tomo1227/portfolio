@@ -7,7 +7,7 @@
   "postCreateCommand": "sh .devcontainer/scripts/post_create.sh",
   "postStartCommand": "sh .devcontainer/scripts/post_start.sh ${containerWorkspaceFolder}",
   "features": {
-    "ghcr.io/devcontainers/features/node:1": {}
+    "ghcr.io/devcontainers/features/node:2": {}
   },
   "customizations": {
     "vscode": {
